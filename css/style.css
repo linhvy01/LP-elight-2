@@ -1,0 +1,445 @@
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	width: 100%;
+}
+
+@font-face {
+	font-family: myFirstFont;
+	src: url('../font/VL_Mark Simonson - Proxima Nova Bold.otf');
+}
+
+@font-face {
+	font-family: mySecondFont;
+	src: url('../font/VL_Mark Simonson - Proxima Nova Thin.otf');
+}
+
+body {
+	background: #fff;
+	font-family: Tahoma, sans-serif;
+	overflow-x: hidden;
+}
+
+.bg {
+	background-image: url('https://d1zw7v9lpbbx9f.cloudfront.net/static/files/91d930e9a5c27bff98106e9b5a20a292/bg.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/* Header */
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	transition: .2s;
+	height: 76px;
+}
+
+.tienhoa {
+	height: 76px;
+	opacity: 0.8;
+	background: #d9d9d9;
+	z-index: 999;
+}
+
+.logo img {
+	width: 80%;
+	transition: .2s;
+}
+
+.tienhoa .logo {
+	padding-top: 14px;
+}
+
+.tienhoa .right-k {
+	padding-top: 14px;
+}
+
+.tienhoa .logo img {
+	width: 70%;
+}
+
+.bienra {
+	visibility: visible!important;
+}
+
+.bienmat {
+	visibility: hidden;
+}
+
+.logo {
+	padding-top: 18px;
+}
+
+.right-k {
+	padding-top: 20px;
+}
+
+.maudo {
+	background: red;
+}
+
+.daudo {
+	background-color: #ea3242;
+	padding: 8px 46px;
+	border-radius: 14px;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+	display: inline-block;
+	font-family: myFirstFont;
+}
+
+.daudo:hover {
+	background: #ec4654;
+}
+
+.daudo p {
+	padding-bottom: 6px;
+}
+
+.right-k .daudo {
+	float:right;
+	/*margin-right: 30px;*/
+	visibility: hidden;
+}
+
+/* End Header */
+
+/* Laptop */
+
+.laptop {
+	width: 910px;
+    height: 470px;
+    background-image: url(../images/laptop0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 93px;
+    right: -97px;
+    z-index: 999;
+}
+
+.part1 {
+    width: 637px;
+    height: 355px;
+    position: absolute;
+    top: 37px;
+    right: 137px;
+    background-image: url(../images/viet1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+    transition: all .2s;
+    -moz-transition: all .2s;
+    -webkit-transition: all .2s;
+    transform: scale(0.999999);
+}
+
+.dungyen {
+	position: absolute;
+	top: 1600px;
+	margin: auto;
+	right: -97px;
+}
+
+.change2 {
+	background-image: url(../images/viet2.png);
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.change3 {
+	background-image: url(../images/viet3.png);
+	-moz-transform: scale(0.999999);
+	-webkit-transform: scale(0.999999);
+	transform: scale(0.999999);
+}
+
+.change4 {
+	background-image: url(../images/viet4.png);
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.change5 {
+	background-image: url(../images/viet5.png);
+	-moz-transform: scale(0.999999);
+	-webkit-transform: scale(0.999999);
+	transform: scale(0.999999);
+}
+
+/* End Laptop */
+
+/* The Same */
+
+.on-top {
+	padding-top: 110px;
+}
+
+.the-same {
+	margin-bottom: 150px;
+}
+
+.the-same h3 {
+	font-size: 36px;
+	line-height: 46px;
+	padding-top: 18px;
+	color: #183466;
+	width: 405px;
+	font-family: myFirstFont;
+}
+
+.option h3 {
+	padding-bottom: 20px;
+	width: 359px;
+	line-height: 50px;
+}
+
+.option .daudo {
+	margin-left: 72px;
+	padding: 8px 84px;
+}
+
+.bonus {
+    position: absolute;
+    left: 45%;
+    bottom: 15px;
+}
+
+.bonus img {
+	width: 10%;
+	margin-right: 10px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.bonus a {
+	color: #ea3242;
+	text-decoration: none;
+}
+
+.bonus2 {
+	position: fixed;
+	top: 600px;
+	width: 100%;
+	margin: auto;
+	visibility: hidden;
+	cursor: pointer;
+}
+
+.bonus2 img {
+	width: 1%;
+}
+
+.special {
+	padding-bottom: 20px;
+}
+
+.special p:nth-child(2) {
+	font-size: 16px;
+	padding-top: 30px;
+	width: 327px;
+	line-height: 22px;
+	letter-spacing: 0.6px;
+	font-family: mySecondFont;
+}
+
+.edit .daudo {
+	margin-top: 40px;
+	margin-left: 90px;
+	padding: 8px 60px;
+}
+
+/* End The Same */
+
+/* Section6 */
+
+.sixth {
+	margin-top: 80px;
+	margin-bottom: 60px;
+}
+
+.title-of-sixth {
+	margin-bottom: 40px;
+	padding: 0 136px;
+}
+
+.title-of-sixth h2 {
+	font-size: 36px;
+	color: #183466;
+	line-height: 50px;
+	font-family: myFirstFont;
+}
+
+.advance {
+	padding: 0 29px;
+}
+
+.advance h6 {
+	font-size: 20px;
+    color: #183466;
+    line-height: 26px;
+    margin-bottom: 10px
+}
+
+.advance p {
+	font-size: 16px;
+	color: #111315;
+	line-height: 23px;
+}
+
+.kk {
+	padding: 0;
+	margin-top: -4px;
+}
+
+.diablo {
+	margin-top: 45px;
+}
+
+.diablo .daudo {
+	padding: 8px 80px;
+}
+
+.tuychinh {
+	padding-top: 84px;
+	margin-left: -10px;
+}
+
+.tuychinh p {
+	font-family: myFirstFont;
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 2px;
+}
+
+.tuychinh span {
+	font-family: mySecondFont;
+	font-size: 16px;
+	font-weight: normal;
+	color: #111315
+}
+
+.benphai {
+	padding: 36px 0;
+}
+
+.benphai p {
+	font-size: 21px;
+	font-style: italic;
+	line-height: 30px;
+	width: 581px;
+	padding-left: 40px;
+	font-family: 'TimeNewRoman', serif;
+}
+
+.chinhsua {
+	padding-right: 0;
+	margin-right: -10px;
+}
+
+.chinhsua img {
+	width: 50px;
+	height: auto;
+}
+
+/* End Section6 */
+
+/* Section7 */
+
+.seventh {
+	background: #d9e2e8;
+	padding: 40px;
+}
+
+.author {
+	padding-left: 70px;
+}
+
+/* End Section7 */
+
+/* Section8 */
+
+.eighth {
+	padding: 60px 0;
+}
+
+.eighth h2 {
+	font-size: 36px;
+	padding: 0 156px;
+	color: #183466;
+	line-height: 50px;
+	padding-bottom: 40px;
+}
+
+.gallery .row .col-md-2, .col-md-3 {
+	padding: 0;
+}
+
+.gallery img {
+	min-height: 168.8px;
+}
+
+.gallery {
+	margin-bottom: 40px;
+}
+
+/* End Section8 */
+
+/* Section9 */
+
+.nineth {
+	margin-bottom: 40px;
+}
+
+.nineth h2 {
+	font-size: 36px;
+	color: #183466;
+	margin-bottom: 40px;
+}
+
+.head {
+	margin-bottom: 24px;
+}
+
+.head img {
+	width: 63%;
+}
+
+.bottom p {
+	font-size: 18px;
+	font-family: myFirstFont;
+	color: #222;
+	padding-bottom: 8px;
+}
+
+.bottom span {
+	font-size: 17px;
+	color: #222;
+	font-family: mySecondFont;
+}
+
+.core {
+	padding: 0 60px;
+}
+
+.core span {
+	line-height: 22px;
+}
+
+/* End Section9 */
+
+
